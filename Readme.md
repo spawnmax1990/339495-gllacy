@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Maxim Maximov](https://up.htmlacademy.ru/htmlcss/21/user/339495).
-* Наставник: `Сергей Артёмов`.
+* Наставник: [Сергей "Firefoxic" Артёмов](https://htmlacademy.ru/profile/firefoxic).
 
 ---
 
