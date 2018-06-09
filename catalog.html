@@ -8,8 +8,8 @@
 
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo" href="index.html">
-          <img src="img/logo.svg" width="154" height="64" alt="Глейси">
+        <a class="main-header-logo">
+          <img src="img/logo.svg" width="154" height="64" alt="Логотип сайта  мороженного Глейси">
         </a>
         <ul class="site-navigation">
           <li>
@@ -26,16 +26,35 @@
           <li><a href="about.html">О нас</a></li>
         </ul>
         <div class="find">
-          <!-- Поиск -->
+          <form>
+            <label class="visually-hidden" for="header-search">Введите то,что хотите найти на сайте.</label>
+            <input type="search" name="search" placeholder="Что ищем?"
+            id="header-search">
+          </form>
         </div>
         <ul class="user-navigation">
-          <li class="login-link">Вход</li>
+          <li class="login-link">Вход
+            <p>
+              <form class="login-input" method="post" action="https://echo.htmlacademy.ru">
+                <fielset>
+                  <p>
+                    <label class="visually-hidden" for="login-email">Введите логин (ваша электронная почта)</label>
+                    <input type="email" id="login-email" name="login" placeholder="Электронная почта">
+                  </p>
+                  <p>
+                    <label class="visually-hidden" for="login-password">Введите пароль от сайта Глейси</label>
+                    <input type="password" id="login-password" name="password" placeholder="Пароль">
+                  <p>
+                </fielset>
+              </form>
+            </p>
+          </li>
         </ul>
         <div class="recycle">
           <!-- Корзина для заказов -->
         </div>
         <div class="phone-number">
-          <span>с 10 до 20, ежедневно</span>
+          <p>с 10 до 20, ежедневно</p>
           <a href="tel:+78124502525">8 812 450-25-25</a>
         </div>
       </nav>
@@ -51,54 +70,64 @@
       <h1>Сливочное мороженое</h1>
 
       <section class="filter">
-        <div class="filter-item item-1">
-          Сортировка:
-          <!-- Выпадающее меню -->
-        </div>
+        <fieldset>
+          <p class="filter-item item-1">
+            <label>Сортировка:
+              <input list="sort">
+            </label>
+            <datalist id="sort">
+              <option value="по популярности">
+              <option value="сначала недорогие">
+              <option value="сначала дорогие">
+              <option value="по жирности">
+            </datalist>
+          </p>
 
-        <div class="filter-item item-2">
-          Цена: 100 руб. - 500 руб.
-          <!-- Форма -->
-        </div>
+          <p class="filter-item item-2">
+            <label>Цена: 100 руб. - 500 руб.
+              <input type="range" name="slider">
+            </label>
+          </p>
 
-        <div class="filter-item item-3">
-          Жирность:
-          <label>
-            <input type="radio" name="fat-content" value="0">0%
-          </label>
-          <label>
-            <input type="radio" name="fat-content" value="<10">до 10%
-          </label>
-          <label>
-            <input type="radio" name="fat-content" value="<30">до 30%
-          </label>
-          <label>
-            <input type="radio" name="fat-content" value=">30">выше 30%
-          </label>
-        </div>
+          <fieldset class="filter-item item-3">
+            <legend>Жирность:</legend>
+            <label>
+              <input type="radio" name="fat-content" value="0">0%
+            </label>
+            <label>
+              <input type="radio" name="fat-content" value="<10">до 10%
+            </label>
+            <label>
+              <input type="radio" name="fat-content" value="<30">до 30%
+            </label>
+            <label>
+              <input type="radio" name="fat-content" value=">30">выше 30%
+            </label>
+          </fieldset>
 
-        <div class="filter-item item-4">
-          Наполнители:
-          <label>
-            <input type="checkbox" name="fillers" value="шоколад">шоколадные
-          </label>
-          <label>
-            <input type="checkbox" name="fillers" value="сахар">сахарные присыпки
-          </label>
-          <label>
-            <input type="checkbox" name="fillers" value="фрукты">фрукты
-          </label>
-          <label>
-            <input type="checkbox" name="fillers" value="сироп">сироп
-          </label>
-          <label>
-            <input type="checkbox" name="fillers" value="джемы">джемы
-          </label>
-        </div>
+          <fieldset class="filter-item item-4">
+            <legend>Наполнители:</legend>
+            <label>
+              <input type="checkbox" name="fillers" value="шоколад">шоколадные
+            </label>
+            <label>
+              <input type="checkbox" name="fillers" value="сахар">сахарные присыпки
+            </label>
+            <label>
+              <input type="checkbox" name="fillers" value="фрукты">фрукты
+            </label>
+            <label>
+              <input type="checkbox" name="fillers" value="сироп">сироп
+            </label>
+            <label>
+              <input type="checkbox" name="fillers" value="джемы">джемы
+            </label>
+          </fieldset>
 
-        <div class="filter-item item-5">
-          <button type="submit">Найти</button>
-        </div>
+          <p class="filter-item item-5">
+            <button type="submit">Найти</button>
+          </p>
+        </fieldset>
       </section>
 
       <section class="catalog">
@@ -180,10 +209,10 @@
 
     <footer class="main-footer">
       <div class="footer-social">
-        <a class="social-button" href="#">Твиттер</a>
-        <a class="social-button" href="#">Инстаграм</a>
-        <a class="social-button" href="#">Фейсбук</a>
-        <a class="social-button" href="#">Вконтакте</a>
+        <a class="social-button" href="https://twitter.com">Твиттер</a>
+        <a class="social-button" href="https://instagram.com">Инстаграм</a>
+        <a class="social-button" href="https://facebook.com">Фейсбук</a>
+        <a class="social-button" href="https://vk.com">Вконтакте</a>
       </div>
 
       <div class="info">
@@ -197,10 +226,11 @@
 
       <div class="author">
         <a href="https://htmlacademy.ru">
-          <img src="img/logo-htmlacademy.svg" width="108" height="37" alt="HTML Academy">
+          <img src="img/logo-htmlacademy.svg" width="108" height="37" alt="Логотип HTML Academy">
           <span class="author-text">Сделано в HTML Academy &copy; 2017</span>
         </a>
       </div>
+
     </footer>
 
   </body>
