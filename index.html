@@ -9,7 +9,7 @@
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
-          <img src="img/logo.svg" width="154" height="64" alt="Глейси">
+          <img src="img/logo.svg" width="154" height="64" alt="Логотип сайта  мороженного Глейси">
         </a>
         <ul class="site-navigation">
           <li>
@@ -26,16 +26,35 @@
           <li><a href="about.html">О нас</a></li>
         </ul>
         <div class="find">
-          <!-- Поиск -->
+          <form>
+            <label class="visually-hidden" for="header-search">Введите то,что хотите найти на сайте.</label>
+            <input type="search" name="search" placeholder="Что ищем?"
+            id="header-search">
+          </form>
         </div>
         <ul class="user-navigation">
-          <li class="login-link">Вход</li>
+          <li class="login-link">Вход
+            <p>
+              <form class="login-input" method="post" action="https://echo.htmlacademy.ru">
+                <fielset>
+                  <p>
+                    <label class="visually-hidden" for="login-email">Введите логин (ваша электронная почта)</label>
+                    <input type="email" id="login-email" name="login" placeholder="Электронная почта">
+                  </p>
+                  <p>
+                    <label class="visually-hidden" for="login-password">Введите пароль от сайта Глейси</label>
+                    <input type="password" id="login-password" name="password" placeholder="Пароль">
+                  <p>
+                </fielset>
+              </form>
+            </p>
+          </li>
         </ul>
         <div class="recycle">
           <!-- Корзина для заказов -->
         </div>
         <div class="phone-number">
-          <span>с 10 до 20, ежедневно</span>
+          <p>с 10 до 20, ежедневно</p>
           <a href="tel:+78124502525">8 812 450-25-25</a>
         </div>
       </nav>
@@ -69,13 +88,13 @@
             <h2>Малинка даром!</h2>
             <p>При покупке 2кг любого фруктового мороженого, добавим в ваш заказ
             банку малинового варенья бесплатно.</p>
-            <a class="button" href="#">Хочу варенье!</a>
+            <a class="button" href="catalog.html">Хочу варенье!</a>
           </li>
           <li>
             <h2>Шоколадки даром!</h2>
             <p>При покупаке 2кг пломбира, добавим в ваш заказ упаковку
             вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-            <a class="button" href="#">Хочу шоколадки</a>
+            <a class="button" href="catalog.html">Хочу шоколадки</a>
           </li>
         </ul>
       </section>
@@ -107,7 +126,7 @@
 
       <section class="features">
         <h3>Магазин Глейси - это онлайн- и оффлайн-магазин по продаже
-        мороженогособственного производства на развес</h3>
+        мороженого собственного производства на развес</h3>
         <ul class="features-list">
           <li class="features-item">
             <p>Все наше мороженое изготавливается на собственно производстве,
@@ -134,22 +153,25 @@
 
       <section class="news">
         <h3>Новое в нашем блоге</h3>
-        <p>10 способов сервировки фруктовых щербетов к столу</p>
+        <p><a href="news.html">10 способов сервировки фруктовых щербетов к столу</a></p>
       </section>
 
       <section class="dispatch">
         <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего
         самого вкусного, что у нас происходит. Обещаем не спамить и не слать
         всякой не нужной ерунды. Честно =)</p>
-        <form>
-          <input type="email" size="50" placeholder="Электронная почта">
+        <form class="dispatch-mail" method="post" action="https://echo.htmlacademy.ru">
+          <label class="visually-hidden" for="discpatch-mail">Введите почту для подписки на нашу рассылку</label>
+          <input type="email" size="50" placeholder="Электронная почта" id="dispatch-mail">
           <button type="submit">Отправить</button>
         </form>
       </section>
 
       <section class="contacts">
         <div class="yandex-map" id="map">
-          <img src="img/map.jpg" width="1200" height="428">
+          <img src="img/map.jpg" width="1200" height="428"
+            alt="Адрес нашего главного офиса: г.Санкт-Петербург
+            ул.Большая Конюшенная, 19/8">
         </div>
         <div class="address">
           <p>Адрес главного офиса и офлайн-магазина:
@@ -165,12 +187,21 @@
       </section>
 
       <section class="modal modal-contacts" id="feedback">
-        <h3>Мы обязательно вам ответим!</h3>
-        <form>
-          <p><input type="text" size="50" placeholder="Как вас зовут?"></p>
-          <p><input type="email" size="50" placeholder="Ваша почта для ответа?"></p>
-          <p><textarea cols="40" rows="5" placeholder="Напишите что-нибудь..."></textarea></p>
-          <p><button type="submit">Отправить</button></p>
+        <form class="modal-feedback" method="post" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Мы обязательно вам ответим!</legend>
+
+            <label class="visually-hidden" for="your-name">Как Вас зовут?</label>
+            <p><input type="text" size="50" placeholder="Как вас зовут?" id="your-name"></p>
+
+            <label class="visually-hidden" for="your-email">Введите свою почту, чтобы мы могли Вам ответить.</label>
+            <p><input type="email" size="50" placeholder="Ваша почта для ответа?" id="your-email"></p>
+
+            <label class="visually-hidden" for="your-text">Напишите, о чем хотели бы нам рассказать.</label>
+            <p><textarea cols="40" rows="5" placeholder="Напишите что-нибудь..." id="your-text"></textarea></p>
+
+            <p><button type="submit">Отправить</button></p>
+          </fieldset>
         </form>
         <span class="modal-close"></span>
       </section>
@@ -199,6 +230,7 @@
           <span class="author-text">Сделано в HTML Academy &copy; 2017</span>
         </a>
       </div>
+
     </footer>
   </body>
 </html>
