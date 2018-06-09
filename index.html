@@ -36,7 +36,7 @@
           <li class="login-link">Вход
             <p>
               <form class="login-input" method="post" action="https://echo.htmlacademy.ru">
-                <fielset>
+                <fieldset>
                   <p>
                     <label class="visually-hidden" for="login-email">Введите логин (ваша электронная почта)</label>
                     <input type="email" id="login-email" name="login" placeholder="Электронная почта">
@@ -45,7 +45,16 @@
                     <label class="visually-hidden" for="login-password">Введите пароль от сайта Глейси</label>
                     <input type="password" id="login-password" name="password" placeholder="Пароль">
                   <p>
-                </fielset>
+                  <p>
+                    <button type="submit">Войти</button>
+                  </p>
+                  <p>
+                    <ul>
+                      <li><a href="restore-password.html">Забыли пароль?</a></li>
+                      <li><a href="new-registration.html">Новая регистрация</a></li>
+                    </ul>
+                  </p>
+                </fieldset>
               </form>
             </p>
           </li>
@@ -162,7 +171,7 @@
         всякой не нужной ерунды. Честно =)</p>
         <form class="dispatch-mail" method="post" action="https://echo.htmlacademy.ru">
           <label class="visually-hidden" for="discpatch-mail">Введите почту для подписки на нашу рассылку</label>
-          <input type="email" size="50" placeholder="Электронная почта" id="dispatch-mail">
+          <input type="email" name="user-email" size="50" placeholder="Электронная почта" id="dispatch-mail">
           <button type="submit">Отправить</button>
         </form>
       </section>
@@ -192,13 +201,13 @@
             <legend>Мы обязательно вам ответим!</legend>
 
             <label class="visually-hidden" for="your-name">Как Вас зовут?</label>
-            <p><input type="text" size="50" placeholder="Как вас зовут?" id="your-name"></p>
+            <p><input type="text" name="user-name" size="50" placeholder="Как вас зовут?" id="your-name"></p>
 
             <label class="visually-hidden" for="your-email">Введите свою почту, чтобы мы могли Вам ответить.</label>
-            <p><input type="email" size="50" placeholder="Ваша почта для ответа?" id="your-email"></p>
+            <p><input type="email" name="user-email" size="50" placeholder="Ваша почта для ответа?" id="your-email"></p>
 
             <label class="visually-hidden" for="your-text">Напишите, о чем хотели бы нам рассказать.</label>
-            <p><textarea cols="40" rows="5" placeholder="Напишите что-нибудь..." id="your-text"></textarea></p>
+            <p><textarea name="user-text" cols="40" rows="5" placeholder="Напишите что-нибудь..." id="your-text"></textarea></p>
 
             <p><button type="submit">Отправить</button></p>
           </fieldset>
