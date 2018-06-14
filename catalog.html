@@ -72,10 +72,10 @@
       <h1>Сливочное мороженое</h1>
 
       <section class="filter">
-        <fieldset>
+        <form method="get" action="https://echo.htmlacademy.ru">
           <p class="filter-item item-1">
             <label>Сортировка:
-              <input list="sort">
+              <input list="sort" name="sorting">
             </label>
             <datalist id="sort">
               <option value="по популярности">
@@ -88,6 +88,8 @@
           <p class="filter-item item-2">
             <label>Цена: 100 руб. - 500 руб.
               <input type="range" name="slider">
+              <!-- Поставил временно range.
+              Когда расскажут как двойной сделать исправлю -->
             </label>
           </p>
 
@@ -129,7 +131,7 @@
           <p class="filter-item item-5">
             <button type="submit">Найти</button>
           </p>
-        </fieldset>
+        </form>
       </section>
 
       <section class="catalog">
@@ -205,6 +207,7 @@
           <li class="pagination-item"><a href="#">5</a></li>
           <li class="pagination-item"><a href="#">&gt;</a></li>
         </ul>
+        <!-- Вопрос на засыпку. А это пагинатор делается доступным? -->
       </section>
 
     </main>
