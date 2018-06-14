@@ -72,7 +72,10 @@
       <h1>Сливочное мороженое</h1>
 
       <section class="filter">
-        <form method="get" action="https://echo.htmlacademy.ru">
+        <form method="get" action="https://echo.htmlacademy.ru"
+              oninput="price_min.value=slider_min.value;
+              price_max.value=slider_max.value">
+
           <p class="filter-item item-1">
             <label>Сортировка:
               <input list="sort" name="sorting">
@@ -86,11 +89,24 @@
           </p>
 
           <p class="filter-item item-2">
-            <label>Цена: 100 руб. - 500 руб.
-              <input type="range" name="slider">
-              <!-- Поставил временно range.
-              Когда расскажут как двойной сделать исправлю -->
+
+            Цена<span class="visually-hidden"> (в руб.)</span>:
+
+            <label for="slider-min">
+              <span class="visually-hidden">от </span>
+              <output id="price_min">100</output>
             </label>
+
+            <label for="slider-max">
+              <span class="visually-hidden">до </span>
+              <output id="price_max">500</output>
+            </label>
+
+            <input type="range" name="slider-min" id="slider_min"
+              min="0" max="800" step="50" value="100">
+            <input type="range" name="slider-max" id="slider_max"
+              min="0" max="800" step="50" value="500">
+
           </p>
 
           <fieldset class="filter-item item-3">
