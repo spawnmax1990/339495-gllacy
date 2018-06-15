@@ -93,7 +93,7 @@
           </li>
           <li>
             <h2>Шоколадки даром!</h2>
-            <p>При покупаке 2кг пломбира, добавим в ваш заказ упаковку
+            <p>При покупке 2кг пломбира, добавим в ваш заказ упаковку
             вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
             <a class="button" href="catalog.html">Хочу шоколадки</a>
           </li>
@@ -183,8 +183,7 @@
             (с 10 до 20 ежедневно)
           </p>
           <a class="button" href="feedback.html">Форма обратной связи</a>
-          <!-- Тут в принципе понятно. Ведет на отдельную страницу с формой.
-          То есть без JS будет работать.-->
+
         </div>
       </section>
 
@@ -193,19 +192,23 @@
 
             <span class="feedback-header">Мы обязательно вам ответим!</span>
 
-            <label class="visually-hidden" for="your-name">Как Вас зовут?</label>
-            <p><input type="text" name="user-name" size="50" placeholder="Как вас зовут?" id="your-name"></p>
+            <p>
+              <label class="visually-hidden" for="your-name">Ваше имя.</label>
+              <input type="text" name="user-name" size="50" placeholder="Как вас зовут?" id="your-name">
+            </p>
 
-            <label class="visually-hidden" for="your-email">Введите свою почту, чтобы мы могли Вам ответить.</label>
-            <p><input type="email" name="user-email" size="50" placeholder="Ваша почта для ответа?" id="your-email"></p>
+            <p>
+              <label class="visually-hidden" for="your-email">Ваш e-mail.</label>
+              <input type="email" name="user-email" size="50" placeholder="Ваша почта для ответа?" id="your-email">
+            </p>
 
-            <label class="visually-hidden" for="your-text">Напишите, о чем хотели бы нам рассказать.</label>
-            <p><textarea name="user-text" cols="40" rows="5" placeholder="Напишите что-нибудь..." id="your-text"></textarea></p>
+            <p>
+              <label class="visually-hidden" for="your-text">Напишите, о чем хотели бы нам рассказать.</label>
+              <textarea name="user-text" cols="40" rows="5" placeholder="Напишите что-нибудь..." id="your-text"></textarea>
+            </p>
 
             <p><button type="submit">Отправить</button></p>
 
-          <!-- Я пришел к выводу что fieldset походу нужен только для radiobutton
-          и checkbox. Так что убрал вообще fieldset. -->
         </form>
         <span class="modal-close"></span>
       </section>
