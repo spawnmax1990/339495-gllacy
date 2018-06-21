@@ -17,17 +17,138 @@ body {
 .phone-number p {
   font-size: 14px;
   line-height: 16px;
-  color: #fff;
 }
 
 .phone-number a {
   font-size: 22px;
   line-height: 24px;
-  color: #fff;
 }
 
 .ice-cream li {
+  font-weight: bold;
   font-size: 60px;
   line-height: 60.35px;
-  color: #fff;
+}
+
+.ice-cream a {
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.free h3 {
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.free p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.free .button {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.catalog-item p {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.catalog-item p+p {
+  font-family: 'Roboto Medium', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.catalog-item span {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.catalog-item img {
+  border-radius: 50%;
+}
+
+.features h3 {
+  font-family: 'Roboto Medium', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  color: #323232;
+}
+
+.features p {
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+}
+
+.news h3 {
+  font-family: 'Roboto Medium', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+}
+
+.news p {
+  font-size: 24px;
+  line-height: 30px;
+  color: #323232;
+}
+
+.dispatch p {
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5a5a5a;
+}
+
+.dispatch button {
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fefefe;
+}
+.dispatch input[placeholder] {
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999;
+}
+
+.contacts .address {
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #323232;
+}
+
+.contacts .bold,
+.contacts .button {
+  font-family: 'Roboto Bold', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.contacts .button {
+  color: #fefefe;
+}
+
+.main-footer .info {
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.main-footer .info:first-child {
+  font-family: 'Roboto Bold', 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.main-footer .author {
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
 }
