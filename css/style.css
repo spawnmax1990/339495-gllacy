@@ -1,5 +1,6 @@
 body {
-  font-family: 'Roboto Bold', 'Arial', sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: bold;
   font-size: 16px;
   line-height: 18px;
   color: #fff;
@@ -7,9 +8,28 @@ body {
   background-color: #849d8f;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 .user-navigation,
 .recycle {
-  font-family: 'Roboto Medium', sans-serif;
+  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
 }
@@ -25,7 +45,6 @@ body {
 }
 
 .ice-cream li {
-  font-weight: bold;
   font-size: 60px;
   line-height: 60.35px;
 }
@@ -50,13 +69,17 @@ body {
   line-height: 24px;
 }
 
+/*.free .strawberry {
+  background-image: url("img/strawberry.jpg") no-repeat;
+}
+Почему то не получилось вставить фон*/
 .catalog-item p {
   font-size: 45px;
   line-height: 45px;
 }
 
 .catalog-item p+p {
-  font-family: 'Roboto Medium', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 22px;
 }
@@ -71,54 +94,52 @@ body {
 }
 
 .features h3 {
-  font-family: 'Roboto Medium', sans-serif;
+  font-weight: 500;
   font-size: 24px;
   line-height: 30px;
   color: #323232;
 }
 
 .features p {
-  font-family: 'Roboto Regular', sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #323232;
 }
 
 .news h3 {
-  font-family: 'Roboto Medium', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   color: #323232;
 }
 
 .news p {
+  font-weight: 400;
   font-size: 24px;
   line-height: 30px;
   color: #323232;
 }
 
 .dispatch p {
-  font-family: 'Roboto Regular', sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #5a5a5a;
 }
 
 .dispatch button {
-  font-family: 'Roboto Regular', sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #fefefe;
 }
 .dispatch input[placeholder] {
-  font-family: 'Roboto Regular', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #999;
 }
 
 .contacts .address {
-  font-family: 'Roboto Regular', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #323232;
@@ -126,7 +147,7 @@ body {
 
 .contacts .bold,
 .contacts .button {
-  font-family: 'Roboto Bold', 'Arial', sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
 }
@@ -136,19 +157,18 @@ body {
 }
 
 .main-footer .info {
-  font-family: 'Roboto Regular', sans-serif;
+  font-weight: 400;
   font-size: 13px;
   line-height: 18px;
 }
 
 .main-footer .info:first-child {
-  font-family: 'Roboto Bold', 'Arial', sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
 .main-footer .author {
-  font-family: 'Roboto Regular', sans-serif;
+  font-weight: 400;
   font-size: 12px;
   line-height: 18px;
 }
