@@ -57,11 +57,14 @@ li {
 .free h3 {
   font-size: 35px;
   line-height: 41px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 .free p {
   font-size: 18px;
   line-height: 22px;
+  padding-left: 15px;
 }
 
 .free .button {
@@ -72,13 +75,15 @@ li {
 .free .strawberry {
   width: 560px;
   height: 229px;
-  background: blue url("img/strawberry.jpg") no-repeat;
+  border-radius: 10px;
+  background: url("../img/strawberry.jpg") no-repeat;
 }
 
 .free .chocolate {
   width: 560px;
   height: 229px;
-  background: blue url("img/chocolate.jpg") no-repeat;
+  border-radius: 10px;
+  background: url("../img/chocolate.jpg") no-repeat;
 }
 
 .catalog-item p {
