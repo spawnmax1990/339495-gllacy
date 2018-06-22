@@ -174,9 +174,24 @@ li {
 }
 
 .dispatch {
-  width: 560;
-  height: 220;
-  /*background: url("../img/bg-post.svg") no-repeat;*/
+  width: 560px;
+  height: 220px;
+  background: url("../img/bg-post.svg") no-repeat;
+  padding-top: 0px;
+}
+
+.dispatch p {
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+.dispatch .white-bg{
+  width: 540px;
+  min-height: 200px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: auto;
+  /*margin-top: 15px;*/
 }
 
 .contacts .address {
