@@ -69,10 +69,12 @@ li {
   line-height: 24px;
 }
 
-/*.free .strawberry {
-  background-image: url("img/strawberry.jpg") no-repeat;
+.free .strawberry {
+  width: 560px;
+  height: 229px;
+  background: blue url("img/strawberry.jpg") no-repeat;
 }
-Почему то не получилось вставить фон*/
+
 .catalog-item p {
   font-size: 45px;
   line-height: 45px;
