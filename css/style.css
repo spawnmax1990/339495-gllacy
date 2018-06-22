@@ -136,6 +136,8 @@ li {
   font-size: 16px;
   line-height: 22px;
   color: #323232;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 .news p {
@@ -143,6 +145,14 @@ li {
   font-size: 24px;
   line-height: 30px;
   color: #323232;
+  padding-left: 15px;
+}
+
+.news {
+  width: 560px;
+  min-height: 220px;
+  background: url("../img/blog.jpg") no-repeat;
+  border-radius: 10px;
 }
 
 .dispatch p {
