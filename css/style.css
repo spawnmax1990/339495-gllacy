@@ -69,11 +69,12 @@ li {
   line-height: 24px;
 }
 
-.free .strawberry {
+/*.free .strawberry {
   width: 560px;
   height: 229px;
   background: blue url("img/strawberry.jpg") no-repeat;
 }
+Фон синим выделяется все норм, а картинки нет.*/
 
 .catalog-item p {
   font-size: 45px;
