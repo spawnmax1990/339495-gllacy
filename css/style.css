@@ -192,7 +192,6 @@ li {
   background-color: #fff;
   border-radius: 15px;
   margin: auto;
-  /*margin-top: 15px;*/
 }
 
 .contacts .address {
@@ -211,7 +210,16 @@ li {
 
 .contacts .button {
   color: #fefefe;
+  background-color: #000;
 }
+
+.address {
+  width: 305px;
+  min-height: 305px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+/*Тоже не получилось сдвинуть текст вниз*/
 
 .main-footer .info {
   font-weight: 400;
