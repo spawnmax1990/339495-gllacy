@@ -329,3 +329,7 @@ li {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.breadcrumbs {
+  display: flex;
+}
