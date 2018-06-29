@@ -311,3 +311,9 @@ li {
   display: flex;
   justify-content: space-around;
 }
+
+.catalog-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
