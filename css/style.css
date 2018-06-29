@@ -323,3 +323,9 @@ li {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
