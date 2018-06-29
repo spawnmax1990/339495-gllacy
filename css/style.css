@@ -264,3 +264,38 @@ li {
   font-size: 12px;
   line-height: 18px;
 }
+
+/*Флексомания*/
+
+/*header на флексах*/
+/*ВЕРНУТЬ ПОДМЕНЮ!*/
+
+.main-navigation {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.main-header-logo {
+  order: 5;
+}
+
+.site-navigation {
+  order: 4;
+}
+
+.find {
+  order: 3;
+}
+
+.user-navigation {
+  order: 2;
+}
+
+.recycle {
+  order: 1;
+}
+
+.phone-number {
+  order: 6;
+}
