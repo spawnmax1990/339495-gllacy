@@ -317,3 +317,9 @@ li {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.two-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
