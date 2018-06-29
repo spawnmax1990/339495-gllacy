@@ -324,11 +324,15 @@ li {
   flex-wrap: wrap;
 }
 
+/*footer на флексах*/
+
 .main-footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+/*внутренняя страница на флексах*/
 
 .breadcrumbs {
   display: flex;
