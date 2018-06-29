@@ -191,7 +191,7 @@ li {
   margin-bottom: 50px;
 }
 
-.dispatch .white-bg{
+.dispatch .white-bg {
   width: 540px;
   min-height: 200px;
   background-color: #fff;
@@ -307,7 +307,7 @@ li {
 
 /*main на флексах*/
 
-.free ul{
+.free ul {
   display: flex;
   justify-content: space-around;
 }
