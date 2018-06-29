@@ -108,6 +108,11 @@ li {
   border-radius: 50%;
 }
 
+.catalog-list .catalog-item {
+  width: 270px;
+  min-height: 300px;
+}
+
 .features h3 {
   font-weight: 500;
   font-size: 24px;
