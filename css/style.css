@@ -299,3 +299,10 @@ li {
 .phone-number {
   order: 6;
 }
+
+/*main на флексах*/
+
+.free ul{
+  display: flex;
+  justify-content: space-around;
+}
