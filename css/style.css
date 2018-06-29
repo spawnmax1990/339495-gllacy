@@ -333,3 +333,8 @@ li {
 .breadcrumbs {
   display: flex;
 }
+
+.filter form {
+  display: flex;
+  flex-wrap: wrap;
+}
