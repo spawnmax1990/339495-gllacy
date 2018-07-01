@@ -182,8 +182,6 @@ li {
   width: 560px;
   height: 220px;
   background: url("../img/bg-post.svg") no-repeat;
-  /*padding-top: 0px;
-  Не смог опустить белый фон ниже. Это вроде выпадание, надо указать рамку прозрачную?*/
 }
 
 .dispatch p {
@@ -192,11 +190,12 @@ li {
 }
 
 .dispatch .white-bg {
-  width: 540px;
-  min-height: 200px;
+  width: 550px;
+  min-height: 212px;
   background-color: #fff;
   border-radius: 15px;
   margin: auto;
+  margin-top: -12px;
 }
 
 .contacts .address {
