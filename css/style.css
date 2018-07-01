@@ -184,6 +184,10 @@ li {
   background: url("../img/bg-post.svg") no-repeat;
 }
 
+.two-columns{
+  margin-bottom: 40px;
+}
+
 .dispatch p {
   padding: 15px;
   margin-bottom: 50px;
