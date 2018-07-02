@@ -135,6 +135,7 @@ li {
   min-height: 310;
   background: url("../img/waffle.jpg") repeat;
   border-radius: 15px;
+  margin: auto;
 }
 .news h3 {
   font-weight: 500;
