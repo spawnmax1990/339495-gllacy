@@ -117,26 +117,58 @@ li {
   font-weight: 500;
   font-size: 24px;
   line-height: 30px;
-  color: #323232;
-  padding-top: 20px;
-  padding-left: 15px;
 }
 
-.features p {
+.features li {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #323232;
-  padding-left: 15px;
+  padding-left: 55px;
+  padding-top: 15px;
+  width: 480px;
+  min-height: 80px;
 }
 
 .features {
-  width: 1150px;
-  min-height: 310;
-  background: url("../img/waffle.jpg") repeat;
+  width: 1145px;
+  min-height: 300;
+  background: white url("../img/waffle.jpg") repeat;
   border-radius: 15px;
   margin: auto;
+  margin-bottom: 40px;
+  color: #323232;
+  box-sizing: border-box;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
 }
+
+.features-list li:nth-child(1) {
+  background: url("../img/ice-cream.svg") no-repeat;
+  order: 1;
+}
+
+.features-list li:nth-child(2) {
+  background: url("../img/eco.svg") no-repeat;
+  order: 3;
+}
+
+.features-list li:nth-child(3) {
+  background: url("../img/cow.svg") no-repeat;
+  order: 2;
+}
+
+.features-list li:nth-child(4) {
+  background: url("../img/thermometer.svg") no-repeat;
+  order: 4;
+}
+
+.features-list {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .news h3 {
   font-weight: 500;
   font-size: 16px;
@@ -317,6 +349,12 @@ li {
 }
 
 .catalog-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.features-list {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
