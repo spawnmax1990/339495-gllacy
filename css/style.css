@@ -130,7 +130,7 @@ li {
 }
 
 .features {
-  width: 1145px;
+  width: 1160px;
   min-height: 300;
   background: white url("../img/waffle.jpg") repeat;
   border-radius: 15px;
@@ -138,7 +138,7 @@ li {
   margin-bottom: 40px;
   color: #323232;
   box-sizing: border-box;
-  padding-top: 1px;
+  border: 1px solid rgba(0,0,0,0);
   padding-bottom: 5px;
   padding-left: 15px;
   padding-right: 5px;
