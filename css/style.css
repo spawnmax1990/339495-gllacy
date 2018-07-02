@@ -200,21 +200,41 @@ li {
   font-size: 16px;
   line-height: 22px;
   color: #5a5a5a;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 510px;
+  min-height: 150;
 }
 
 .dispatch button {
   font-size: 18px;
+  font-weight: 700;
   line-height: 24px;
   color: #fefefe;
+  width: 135px;
+  height: 45px;
+  border-radius: 25px;
+  background: linear-gradient(to top, #ee6140, #e74b35);
+  border: 1px solid rgba(0,0,0,0);
+  box-shadow: 0 4px 5px -1px grey;
+  margin-left: 5px;
 }
+
 .dispatch input[placeholder] {
+  width: 365px;
+  min-height: 40px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #999;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  padding-left: 10px;
+  margin-left: 20px;
 }
-
 .dispatch {
+  font-weight: 400;
   width: 560px;
   height: 220px;
   background: url("../img/bg-post.svg") no-repeat;
@@ -224,18 +244,14 @@ li {
   margin-bottom: 40px;
 }
 
-.dispatch p {
-  padding: 15px;
-  margin-bottom: 50px;
-}
-
 .dispatch .white-bg {
   width: 550px;
-  min-height: 212px;
+  min-height: 210px;
   background-color: #fff;
   border-radius: 15px;
+  border: 1px solid rgba(0,0,0,0);
   margin: auto;
-  margin-top: -12px;
+  margin-top: 4px;
 }
 
 .contacts .address {
