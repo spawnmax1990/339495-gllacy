@@ -59,19 +59,37 @@ li {
 .free h3 {
   font-size: 35px;
   line-height: 41px;
-  padding-top: 15px;
-  padding-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .free p {
   font-size: 18px;
   line-height: 22px;
-  padding-left: 15px;
 }
 
 .free .button {
   font-size: 18px;
   line-height: 24px;
+  float: right;
+  width: 170px;
+  height: 45px;
+  border-radius: 25px;
+  background: linear-gradient(to top, #ee6140, #e74b35);
+  border: 1px solid rgba(0,0,0,0);
+  box-shadow: 0 4px 5px -1px black;
+  padding: 10px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+
+.chocolate .button {
+  width: 190px;
+}
+
+.free a {
+  color: #fff;
 }
 
 .free .strawberry {
@@ -79,6 +97,9 @@ li {
   min-height: 229px;
   border-radius: 10px;
   background: url("../img/strawberry.jpg") no-repeat;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 .free .chocolate {
@@ -86,6 +107,9 @@ li {
   min-height: 229px;
   border-radius: 10px;
   background: url("../img/chocolate.jpg") no-repeat;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 .catalog-item p {
