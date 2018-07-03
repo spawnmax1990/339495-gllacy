@@ -394,8 +394,13 @@ li {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
+  width: 200px;
+  height: 70px;
 }
-
+.main-footer .author p {
+  margin-top: 0;
+  color: #fff;
+}
 /*Флексомания*/
 
 /*header на флексах*/
