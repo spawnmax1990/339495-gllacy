@@ -51,9 +51,26 @@ li {
   line-height: 60.35px;
 }
 
-.ice-cream a {
+.ice-cream {
+  width: 1200px;
+  min-height: 600px;
+}
+
+.ice-cream .button {
   font-size: 32px;
   line-height: 44px;
+  width: 280px;
+  height: 65px;
+  border-radius: 30px;
+  background: linear-gradient(to top, #ee6140, #e74b35);
+  border: 1px solid rgba(0,0,0,0);
+  box-shadow: 0 4px 5px -1px black;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  color: #fff;
+  /* Не получилось выровнять по центру */
 }
 
 .free h3 {
