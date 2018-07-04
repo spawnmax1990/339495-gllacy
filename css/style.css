@@ -29,6 +29,14 @@ li {
   list-style-type: none;
 }
 
+.site-navigation {
+  text-decoration: underline;
+}
+
+.site-navigation li {
+  margin-left: 15px;
+}
+
 .user-navigation,
 .recycle {
   font-weight: 500;
@@ -474,6 +482,10 @@ li {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
+  /*justify-content: space-between;*/
+}
+.site-navigation {
+  display: flex;
 }
 
 .main-header-logo {
