@@ -379,15 +379,67 @@ li {
   border-radius: 15px;
 }
 
+.main-footer {
+  margin-bottom: 30px;
+}
+
 .main-footer .info {
   font-weight: 400;
   font-size: 13px;
   line-height: 18px;
+  width: 310px;
+  height: 40px;
 }
 
-.main-footer .info:first-child {
+.info-list {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.info-list li:nth-child(1) {
+  order: 1;
+  width: 140px;
+  height: 20px;
+  position: relative;
+}
+
+.info-list li:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: -20px;
+  top: 2px;
+  background: url('../img/heart.svg') 0 0 no-repeat;
+}
+
+.info-list li:nth-child(2) {
+  order: 3;
+  width: 140px;
+  height: 20px;
+}
+
+.info-list li:nth-child(3) {
+  order: 2;
+  width: 140px;
+  height: 20px;
+}
+
+.info-list li:nth-child(4) {
+  order: 4;
+  width: 170px;
+  height: 20px;
+}
+
+.info-list a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.main-footer .info-list li:first-child {
   font-size: 13px;
   line-height: 18px;
+  font-weight: 700;
 }
 
 .main-footer .author {
@@ -401,6 +453,7 @@ li {
   margin-top: 0;
   color: #fff;
 }
+
 /*Флексомания*/
 
 /*header на флексах*/
@@ -470,6 +523,11 @@ li {
   flex-wrap: wrap;
 }
 
+.info-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 /*внутренняя страница на флексах*/
 
 .breadcrumbs {
