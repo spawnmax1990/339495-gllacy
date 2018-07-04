@@ -401,6 +401,58 @@ li {
   margin-bottom: 30px;
 }
 
+.footer-social {
+  position: relative;
+}
+
+.footer-social a:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url("../img/twitter.svg") no-repeat;
+  left: -90px;
+  border: 3px solid lightgrey;
+  border-radius: 50%;
+  top: 10px;
+}
+
+.footer-social a:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url("../img/instagram.svg") no-repeat;
+  left: -40px;
+  border: 3px solid lightgrey;
+  border-radius: 50%;
+  top: 10px;
+}
+
+.footer-social a:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url("../img/fb.svg") no-repeat;
+  left: 10px;
+  border: 3px solid lightgrey;
+  border-radius: 50%;
+  top: 10px;
+}
+
+.footer-social a:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url("../img/vk.svg") no-repeat;
+  left: 60px;
+  border: 3px solid lightgrey;
+  border-radius: 50%;
+  top: 10px;
+}
+
 .main-footer .info {
   font-weight: 400;
   font-size: 13px;
