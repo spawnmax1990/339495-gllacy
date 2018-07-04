@@ -137,6 +137,8 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .catalog-item span {
@@ -151,6 +153,15 @@ li {
 .catalog-list .catalog-item {
   width: 270px;
   min-height: 300px;
+}
+
+.catalog-item {
+  position: relative;
+}
+
+.catalog-item p:first-of-type {
+  position: absolute;
+  top: 160px;
 }
 
 .features h3 {
