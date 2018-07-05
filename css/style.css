@@ -537,7 +537,7 @@ li {
   width: 200px;
   height: 30px;
   border-radius: 25px;
-  background: lightgrey;
+  background: #a7b9af;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 10px;
@@ -552,7 +552,7 @@ li {
 .item-3 .fat {
   width: 420px;
   border-radius: 25px;
-  background: lightgrey;
+  background: #a7b9af;
   padding: 7px;
 
   display: flex;
@@ -563,7 +563,7 @@ li {
 .item-4 .fillers {
   width: 710px;
   border-radius: 25px;
-  background: lightgrey;
+  background: #a7b9af;
   padding: 7px;
 
   display: flex;
@@ -572,7 +572,7 @@ li {
 }
 
 .filter-item button {
-  background: lightgrey;
+  background: #a7b9af;
   width: 150px;
   height: 31px;
   border-radius: 25px;
