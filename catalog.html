@@ -81,7 +81,7 @@
               price_max.value=slider_max.value">
 
           <p class="filter-item item-1">
-            <span>Сортировка:</span>
+            <span>Сортировка:</span></br>
             <select name="sort">
               <option value="по популярности">по популярности</option>
               <option value="сначала недорогие">сначала недорогие</option>
@@ -91,7 +91,7 @@
           </p>
 
           <p class="filter-item item-2">
-            Цена<span class="visually-hidden"> (в руб.)</span>:
+            Цена<span class="visually-hidden"> (в руб.)</span>:<br>
 
             <label for="slider-min">
               <span class="visually-hidden">от </span>
@@ -111,37 +111,41 @@
 
           <fieldset class="filter-item item-3">
             <legend>Жирность:</legend>
-            <label>
-              <input type="radio" name="fat-content" value="0">0%
-            </label>
-            <label>
-              <input type="radio" name="fat-content" value="<10">до 10%
-            </label>
-            <label>
-              <input type="radio" name="fat-content" value="<30">до 30%
-            </label>
-            <label>
-              <input type="radio" name="fat-content" value=">30">выше 30%
-            </label>
+            <div class="fat">
+              <label>
+                <input type="radio" name="fat-content" value="0">0%
+              </label>
+              <label>
+                <input type="radio" name="fat-content" value="<10">до 10%
+              </label>
+              <label>
+                <input type="radio" name="fat-content" value="<30">до 30%
+              </label>
+              <label>
+                <input type="radio" name="fat-content" value=">30">выше 30%
+              </label>
+            </div>
           </fieldset>
 
           <fieldset class="filter-item item-4">
             <legend>Наполнители:</legend>
-            <label>
-              <input type="checkbox" name="fillers" value="шоколад">шоколадные
-            </label>
-            <label>
-              <input type="checkbox" name="fillers" value="сахар">сахарные присыпки
-            </label>
-            <label>
-              <input type="checkbox" name="fillers" value="фрукты">фрукты
-            </label>
-            <label>
-              <input type="checkbox" name="fillers" value="сироп">сироп
-            </label>
-            <label>
-              <input type="checkbox" name="fillers" value="джемы">джемы
-            </label>
+            <div class="fillers">
+              <label>
+                <input type="checkbox" name="fillers" value="шоколад">шоколадные
+              </label>
+              <label>
+                <input type="checkbox" name="fillers" value="сахар">сахарные присыпки
+              </label>
+              <label>
+                <input type="checkbox" name="fillers" value="фрукты">фрукты
+              </label>
+              <label>
+                <input type="checkbox" name="fillers" value="сироп">сироп
+              </label>
+              <label>
+                <input type="checkbox" name="fillers" value="джемы">джемы
+              </label>
+            </div>
           </fieldset>
 
           <p class="filter-item item-5">

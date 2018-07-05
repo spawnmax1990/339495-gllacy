@@ -524,6 +524,64 @@ li {
   color: #fff;
 }
 
+.item-1 span {
+  padding-left: 15px;
+}
+
+.item-1,
+.item-2 {
+  margin-top: 0;
+}
+
+.filter select {
+  width: 200px;
+  height: 30px;
+  border-radius: 25px;
+  background: lightgrey;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.item-3,
+.item-4 {
+  border: 0px solid black;
+}
+
+.item-3 .fat {
+  width: 420px;
+  border-radius: 25px;
+  background: lightgrey;
+  padding: 7px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item-4 .fillers {
+  width: 710px;
+  border-radius: 25px;
+  background: lightgrey;
+  padding: 7px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.filter-item button {
+  background: lightgrey;
+  width: 150px;
+  height: 31px;
+  border-radius: 25px;
+  border: 0 solid black;
+  margin-top: 7px;
+}
+
+
+
 /*Флексомания*/
 
 /*header на флексах*/
