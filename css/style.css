@@ -669,6 +669,49 @@ li {
   color: #323232;
 }
 
+.pagination-list {
+  position: relative;
+}
+
+.pagination-list li:first-of-type {
+  position: absolute;
+  left: 1030px;
+  top: 9px;
+  width: 12px;
+  height: 12px;
+  background: url('../img/icon-right-small-left.svg') no-repeat;
+}
+
+.pagination-list li:last-of-type {
+  position: absolute;
+  left: 1205px;
+  top: 9px;
+  width: 12px;
+  height: 12px;
+  background: url('../img/icon-right-small.svg') no-repeat;
+}
+
+.breadcrumbs {
+  width: 235px;
+}
+
+.breadcrumbs a{
+  color: white;
+  text-decoration: underline;
+}
+
+.breadcrumbs a:hover{
+  text-decoration: none;
+}
+
+.breadcrumbs li:nth-child(1)::after {
+  content: " »";
+}
+
+.breadcrumbs li:nth-child(2)::after {
+  content: " »";
+}
+
 /*Флексомания*/
 
 /*header на флексах*/
@@ -751,6 +794,7 @@ li {
 
 .breadcrumbs {
   display: flex;
+  justify-content: space-between;
 }
 
 .filter form {
