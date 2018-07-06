@@ -536,6 +536,7 @@ li {
 .filter select {
   width: 200px;
   height: 30px;
+  border: 0 solid black;
   border-radius: 25px;
   background: #a7b9af;
   padding-left: 15px;
@@ -580,7 +581,31 @@ li {
   margin-top: 7px;
 }
 
+.radio-indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
 
+.item-3 label {
+  position: relative;
+}
+
+.fat span {
+  position: absolute;
+  left: -27px;
+  top: -3px;
+}
+
+.fat input:checked + .radio-indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background: white;
+  box-shadow: inset 0 0 0 4px #a7b9af;
+}
 
 /*Флексомания*/
 
