@@ -565,7 +565,7 @@ li {
   width: 710px;
   border-radius: 25px;
   background: #a7b9af;
-  padding: 7px;
+  padding: 10px;
 
   display: flex;
   flex-wrap: wrap;
@@ -575,7 +575,7 @@ li {
 .filter-item button {
   background: #a7b9af;
   width: 150px;
-  height: 31px;
+  height: 37px;
   border-radius: 25px;
   border: 0 solid black;
   margin-top: 7px;
@@ -606,6 +606,30 @@ li {
   background: white;
   box-shadow: inset 0 0 0 4px #a7b9af;
 }
+
+.item-4 label {
+  position: relative;
+}
+
+.fillers span {
+  width: 27px;
+  height: 23px;
+  position: absolute;
+  background: url('../img/checkbox-off.svg') no-repeat;
+  left: -25px;
+  top: -3px;
+}
+
+.fillers input:checked + .checkbox-indicator {
+  width: 27px;
+  height: 23px;
+  position: absolute;
+  background: url('../img/checkbox-on.svg') no-repeat;
+  left: -25px;
+  top: -3px;
+}
+
+
 
 /*Флексомания*/
 
