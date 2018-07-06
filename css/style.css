@@ -619,6 +619,14 @@ li {
   position: relative;
 }
 
+.item-4 {
+  padding-left: 0;
+}
+
+.item-4 legend {
+  padding-left: 15px;
+}
+
 .fillers span {
   width: 27px;
   height: 23px;
