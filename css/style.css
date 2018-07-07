@@ -225,12 +225,9 @@ li {
   width: 170px;
   height: 45px;
   border-radius: 25px;
-  background: linear-gradient(to top, #ee6140, #e74b35);
-  border: 1px solid rgba(0,0,0,0);
-  box-shadow: 0 4px 5px -1px black;
   padding: 10px;
-  padding-left: 20px;
   box-sizing: border-box;
+  text-align: center;
   margin-top: 25px;
 }
 
@@ -389,7 +386,7 @@ li {
   margin-top: 35px;
   margin-bottom: 35px;
   width: 510px;
-  min-height: 150;
+  min-height: 60px;
 }
 
 .dispatch button {
@@ -400,10 +397,11 @@ li {
   width: 135px;
   height: 45px;
   border-radius: 25px;
-  background: linear-gradient(to top, #ee6140, #e74b35);
-  border: 1px solid rgba(0,0,0,0);
-  box-shadow: 0 4px 5px -1px grey;
-  margin-left: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 0 0 0;
+  /*При нажатии почему то синий аутлайн появляется,
+  на других кнопках такого нет*/
 }
 
 .dispatch input[placeholder] {
@@ -453,7 +451,7 @@ li {
   line-height: 24px;
 }
 
-.contacts a {
+.contacts a:not(.button) {
   color: #323232;
 }
 
@@ -463,9 +461,6 @@ li {
   border-radius: 25px;
   padding: 10px;
   padding-left: 25px;
-  background: linear-gradient(to top, #ee6140, #e74b35);
-  border: 1px solid rgba(0,0,0,0);
-  box-shadow: 0 4px 5px -1px grey;
   box-sizing: border-box;
 }
 
