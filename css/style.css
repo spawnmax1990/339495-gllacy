@@ -449,6 +449,18 @@ li {
   z-index: 1;
 }
 
+.modal-close {
+  position: fixed;
+  width: 18px;
+  height: 18px;
+  top: 50%;
+  left: 50%;
+  margin-left: 200px;
+  margin-top: -192px;
+  background: url('../img/cross-big.svg') no-repeat;
+  cursor: pointer;
+}
+
 .main-footer {
   margin-bottom: 30px;
 }
@@ -770,7 +782,6 @@ li {
 
 /*header на флексах*/
 /*ВЕРНУТЬ ПОДМЕНЮ!*/
-/* ВЕРНУТЬ МОДАЛЬНОЕ ОКНО */
 
 .main-navigation {
   display: flex;
