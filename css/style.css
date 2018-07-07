@@ -54,6 +54,19 @@ li {
   line-height: 24px;
 }
 
+.phone-number {
+  width: 100%;
+  text-align: right;
+}
+
+.user-navigation {
+  margin-left: auto;
+}
+
+.main-header a {
+  color: #fff;
+}
+
 .site-wrapper {
   /*min-width: 940px;*/
   width: 1200px;
@@ -913,13 +926,11 @@ li {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
 }
 .site-navigation {
   display: flex;
 }
-
-
 
 /*main на флексах*/
 
