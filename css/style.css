@@ -296,6 +296,10 @@ li {
   top: 160px;
 }
 
+.catalog-list {
+  padding-left: 0px;
+}
+
 .features h3 {
   font-weight: 500;
   font-size: 24px;
