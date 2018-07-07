@@ -31,8 +31,20 @@ li {
   text-decoration: underline;
 }
 
+.site-navigation li:first-child {
+  width: 90px;
+  height: 35px;
+  border-radius: 25px;
+  background: #d07058;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* Не убирается подчеркивание */
+}
+
 .site-navigation li {
   margin-left: 15px;
+  padding-top: 7px;
 }
 
 .user-navigation,
