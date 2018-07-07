@@ -5,7 +5,7 @@ body {
   line-height: 18px;
   color: #fff;
 
-  background-color: #849d8f;
+  /*background-color: #849d8f;*/
   width: 1200px;
   margin: auto;
 }
@@ -55,7 +55,8 @@ li {
 }
 
 .site-wrapper {
-  min-width: 940px;
+  /*min-width: 940px;*/
+  width: 1200px;
   background-color: #849d8f;
   background-image: url("img/slider-item1.png");
   background-repeat: no-repeat;
@@ -906,7 +907,7 @@ li {
 
 .main-navigation {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap;
   /*justify-content: space-between;*/
 }
@@ -914,29 +915,7 @@ li {
   display: flex;
 }
 
-.main-header-logo {
-  order: 5;
-}
 
-.site-navigation {
-  order: 4;
-}
-
-.find {
-  order: 3;
-}
-
-.user-navigation {
-  order: 2;
-}
-
-.recycle {
-  order: 1;
-}
-
-.phone-number {
-  order: 6;
-}
 
 /*main на флексах*/
 
