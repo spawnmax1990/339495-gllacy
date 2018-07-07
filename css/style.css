@@ -5,8 +5,6 @@ body {
   line-height: 18px;
   color: #fff;
 
-  /*background-color: #849d8f;*/
-  width: 1200px;
   margin: auto;
 }
 
@@ -69,13 +67,18 @@ li {
 
 .site-wrapper {
   /*min-width: 940px;*/
-  width: 1200px;
+  /* width: 1200px; */
   background-color: #849d8f;
   background-image: url("img/slider-item1.png");
   background-repeat: no-repeat;
   background-position: top center;
 
   transition: background-image 0.5s ease, background-color 0.5s ease;
+}
+
+.crop {
+  width: 1200px;
+  margin: auto;
 }
 
 .site-wrapper::before,
@@ -271,6 +274,10 @@ li {
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
+}
+
+.free ul{
+  padding-left: 0;
 }
 
 .catalog-item p {
