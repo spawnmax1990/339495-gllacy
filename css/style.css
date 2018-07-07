@@ -868,6 +868,12 @@ li {
   color: white;
 }
 
+.pagination-list {
+  padding-left: 0;
+  box-sizing: border-box;
+  margin-right: 30px;
+}
+
 .pagination-current {
   border-radius: 50%;
   background-color: white;
@@ -885,7 +891,7 @@ li {
 
 .pagination-list li:first-of-type {
   position: absolute;
-  left: 1030px;
+  left: 1000px;
   top: 9px;
   width: 12px;
   height: 12px;
@@ -894,7 +900,7 @@ li {
 
 .pagination-list li:last-of-type {
   position: absolute;
-  left: 1205px;
+  left: 1170px;
   top: 9px;
   width: 12px;
   height: 12px;
