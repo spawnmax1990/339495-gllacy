@@ -55,14 +55,64 @@ li {
 .phone-number {
   width: 100%;
   text-align: right;
+  margin-top: -30px;
 }
 
-.user-navigation {
+.find {
   margin-left: auto;
+  padding: 10px;
+  background-color: #afbfb6;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
 }
 
 .main-header a {
   color: #fff;
+}
+
+.loupe {
+  width: 35px;
+  height: 35px;
+  background: url('../img/loupe.svg') no-repeat;
+}
+
+.user-navigation {
+  width: 95px;
+  height: 35px;
+  border-radius: 25px;
+  /* background-color: #afbfb6; */
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+.user-navigation {
+  padding-left: 15px;
+  margin: 0;
+  padding-top: 10px;
+  background: #afbfb6 url('../img/entrance.svg') 13px 9px no-repeat;
+  margin-left: 15px;
+}
+
+.recycle {
+  width: 120px;
+  height: 35px;
+  background: #afbfb6;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 9px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  background: #fff url('../img/basket-red.svg') 13px 8px no-repeat;
+  color: #323232;
+  margin-left: 15px;
+
+}
+
+.main-header {
+  padding-top: 15px;
 }
 
 .site-wrapper {
@@ -909,6 +959,7 @@ li {
 
 .breadcrumbs {
   width: 235px;
+  padding-left: 0;
 }
 
 .breadcrumbs a{
