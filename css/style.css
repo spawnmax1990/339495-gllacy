@@ -1136,7 +1136,7 @@ input[placeholder]:focus {
 
 .free ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .catalog-list {
@@ -1153,7 +1153,7 @@ input[placeholder]:focus {
 
 .two-columns {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
