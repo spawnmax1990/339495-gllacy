@@ -48,14 +48,16 @@ li {
   padding-bottom: 5px;
 }
 
+
+
 .submenu {
   display: none;
   position: absolute;
 
   width: 140px;
   min-height: 170px;
-  top: 70px;
-  left: 550px;
+  top: 45px;
+  left: -5px;
   box-sizing: border-box;
 
   border-radius: 5px;
@@ -78,6 +80,7 @@ li {
 
 .site-navigation .help {
   height: 50px;
+  position: relative;
 }
 
 .submenu li:nth-child(2) {
