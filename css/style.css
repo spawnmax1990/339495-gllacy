@@ -111,10 +111,6 @@ ul {
   color: #323232;
 }
 
-.submenu a:active {
-  background-color: #f6b5a5;
-}
-
 .submenu li:first-child {
   font-weight: 700;
   border-bottom: 1px solid lightgrey;
@@ -131,6 +127,10 @@ ul {
 
 .site-navigation .submenu a {
   color: #323232;
+}
+
+.site-navigation .submenu a:active {
+  background-color: #f6b5a5;
 }
 
 /*NOTE: Меню (правая половина)*/
