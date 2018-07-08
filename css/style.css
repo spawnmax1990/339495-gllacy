@@ -114,6 +114,10 @@ li {
   background: #fbded8;
 }
 
+.submenu li:active {
+  background: ##f6b5a5;
+}
+
 .user-navigation,
 .recycle {
   font-weight: 500;
