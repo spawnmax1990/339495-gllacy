@@ -499,7 +499,7 @@ ul {
 
 .features {
   width: 1160px;
-  min-height: 300;
+  min-height: 300px;
   background: white url("../img/waffle.jpg") repeat;
   border-radius: 15px;
   margin: auto;
@@ -794,7 +794,7 @@ input[placeholder]:focus {
 }
 
 .main-footer {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .footer-social {
