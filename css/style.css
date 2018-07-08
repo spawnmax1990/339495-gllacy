@@ -42,12 +42,10 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 
   margin-top: 10px;
   margin-left: 10px;
-  /*Для разметки*/
-  background: grey;
-  border-radius: 25px;
 }
 
 .menu {
@@ -74,64 +72,65 @@ ul {
   text-decoration: none;
 }
 
+.help:hover .submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 /*NOTE: Подменю */
-.submenu li a {
-  color: black;
-  font-weight: 400;
-}
-
-.submenu li:first-child a {
-  font-weight: 700;
-}
-
-.submenu li:first-child {
-  border-bottom: 1px solid lightgrey;
-  margin: 0;
-  padding: 0;
-  padding-top: 7px;
-  margin-bottom: 3px;
-  padding-bottom: 0;
-}
-
 .submenu {
   display: none;
   position: absolute;
+  top: 40px;
+  left: 0;
 
-  width: 140px;
-  min-height: 170px;
-  top: 45px;
-  left: -5px;
+  width: 145;
+  height: 170;
   box-sizing: border-box;
-
   border-radius: 5px;
-  background: white;
+  background-color: white;
 
-  padding-left: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+  font-weight: 400;
 
-.submenu li {
-  height: 27px;
-  margin-left: 0;
-}
-
-.submenu li:hover {
-  background: #fbded8;
-}
-
-.submenu li:active {
-  background: #f6b5a5;
-}
-
-.submenu li:nth-child(2) {
-  background-color: #d07058;
-}
-
-.submenu a{
-  display: block;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.submenu a {
+  display: block;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.site-navigation .submenu a:hover {
+  background-color: #fbded7;
+  color: #323232;
+}
+
+.submenu a:active {
+  background-color: #f6b5a5;
+}
+
+.submenu li:first-child {
+  font-weight: 700;
+  border-bottom: 1px solid lightgrey;
+  /*TODO: Нижняя рамка не должна идти от края до края*/
+}
+
+.submenu .current {
+  background: #d07058;
+}
+
+.site-navigation .submenu .current {
+  color: white;
+}
+
+.site-navigation .submenu a {
+  color: #323232;
 }
 
 /*NOTE: Меню (правая половина)*/
