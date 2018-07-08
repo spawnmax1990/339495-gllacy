@@ -455,7 +455,7 @@ li {
   position: relative;
 }
 
-.catalog-item p + p::before {
+.hit p + p::before {
   content: "";
   position: absolute;
   top: 0;
