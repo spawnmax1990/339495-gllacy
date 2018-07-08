@@ -74,44 +74,6 @@ ul {
   text-decoration: none;
 }
 
-/*.site-navigation .menu {
-  text-decoration: underline;
-}
-
-.site-navigation .current {
-  border-radius: 25px;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-sizing: border-box;
-  background: #d07058;
-  text-decoration: none;
-}
-
-.site-navigation .help {
-  height: 50px;
-  position: relative;
-}
-
-.site-navigation .help:hover .submenu {
-  display: flex;
-  flex-direction: column;
-}
-
-.site-navigation li {
-  margin-left: 15px;
-  padding-top: 7px;
-}
-.site-navigation li a {
-  padding: 10px;
-}
-.menu:hover {
-  background: white;
-  border-radius: 25px;
-  color: #323232;
-  text-decoration: none;
-}*/
-
 /*NOTE: Подменю */
 .submenu li a {
   color: black;
