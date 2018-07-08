@@ -1119,6 +1119,12 @@ input[placeholder]:focus {
   content: " »";
 }
 
+.container,
+.free,
+.catalog,
+.two-columns {
+  margin-bottom: 25px;
+}
 
 
 /*Флексомания*/
