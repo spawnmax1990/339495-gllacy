@@ -1,3 +1,4 @@
+/*NOTE: Общие стили*/
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
   font-weight: bold;
@@ -27,10 +28,91 @@ li {
   list-style-type: none;
 }
 
-.site-navigation .menu {
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*NOTE: Меню (левая половина)*/
+.site-navigation {
+  width: 380px;
+  height: 35px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 10px;
+  margin-left: 10px;
+  /*Для разметки*/
+  background: grey;
+  border-radius: 25px;
+}
+
+.menu {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+
   text-decoration: underline;
 }
 
+.menu.current {
+  border-radius: 25px;
+  background-color: #d07058;
+
+  text-decoration: none;
+}
+
+.menu:hover {
+  border-radius: 25px;
+  background-color: white;
+
+  color: #323232;
+  text-decoration: none;
+}
+
+/*.site-navigation .menu {
+  text-decoration: underline;
+}
+
+.site-navigation .current {
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  background: #d07058;
+  text-decoration: none;
+}
+
+.site-navigation .help {
+  height: 50px;
+  position: relative;
+}
+
+.site-navigation .help:hover .submenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-navigation li {
+  margin-left: 15px;
+  padding-top: 7px;
+}
+.site-navigation li a {
+  padding: 10px;
+}
+.menu:hover {
+  background: white;
+  border-radius: 25px;
+  color: #323232;
+  text-decoration: none;
+}*/
+
+/*NOTE: Подменю */
 .submenu li a {
   color: black;
   font-weight: 400;
@@ -67,50 +149,6 @@ li {
   padding-bottom: 10px;
 }
 
-.site-navigation .current {
-  border-radius: 25px;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-sizing: border-box;
-  background: #d07058;
-  text-decoration: none;
-}
-
-.site-navigation .help {
-  height: 50px;
-  position: relative;
-}
-
-.submenu li:nth-child(2) {
-  background-color: #d07058;
-}
-
-.site-navigation .help:hover .submenu {
-  display: flex;
-  flex-direction: column;
-}
-
-.submenu a{
-  display: block;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.site-navigation li {
-  margin-left: 15px;
-  padding-top: 7px;
-}
-.site-navigation li a {
-  padding: 10px;
-}
-.menu:hover {
-  background: white;
-  border-radius: 25px;
-  color: #323232;
-  text-decoration: none;
-}
-
 .submenu li {
   height: 27px;
   margin-left: 0;
@@ -124,6 +162,17 @@ li {
   background: #f6b5a5;
 }
 
+.submenu li:nth-child(2) {
+  background-color: #d07058;
+}
+
+.submenu a{
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/*NOTE: Меню (правая половина)*/
 .user-navigation,
 .recycle {
   font-weight: 500;
@@ -1107,9 +1156,7 @@ input[placeholder]:focus {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.site-navigation {
-  display: flex;
-}
+
 
 /*main на флексах*/
 
