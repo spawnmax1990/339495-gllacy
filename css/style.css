@@ -690,13 +690,16 @@ input[placeholder]:focus {
 .address {
   width: 305px;
   min-height: 305px;
-  background-color: #fff;
-  border-radius: 15px;
-  position: absolute;
-  right: 30px;
-  top: 65px;
-  padding: 20px;
   box-sizing: border-box;
+
+  border-radius: 15px;
+  background-color: #fff;
+
+  position: absolute;
+  top: -368px;
+  right: 30px;
+
+  padding: 20px;
 }
 
 .feedback-header {
