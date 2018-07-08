@@ -669,9 +669,13 @@ input[placeholder]:focus {
   color: #fefefe;
 }
 
+/*NOTE: Яндекс карта*/
 .yandex-map {
   width: 100%;
-  height: 100%;
+  height: 430px;
+
+  background: #dbe0cf url(../img/map.jpg) 50% 50% no-repeat;
+  background-size: cover;
 }
 
 .contacts {
