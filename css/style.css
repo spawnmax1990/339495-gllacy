@@ -27,21 +27,63 @@ li {
   list-style-type: none;
 }
 
-.site-navigation {
+.site-navigation .menu {
   text-decoration: underline;
 }
 
-.site-navigation li:first-child {
-  width: 90px;
-  height: 35px;
-  border-radius: 25px;
-  background: #d07058;
-  text-align: center;
-  box-sizing: border-box;
-  text-decoration: none;
-  /* Не убирается подчеркивание */
+.submenu li a {
+  color: black;
+  font-weight: 400;
 }
 
+.submenu li:first-child a {
+  font-weight: 700;
+  padding-left: 15px;
+}
+
+.submenu li:first-child {
+  border-bottom: 1px solid lightgrey;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.submenu li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 550px;
+  width: 155px;
+  height: 170px;
+  border-radius: 5px;
+  background: white;
+  box-sizing: border-box;
+  padding-left: 0;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.site-navigation .current {
+  border-radius: 25px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  background: #d07058;
+  text-decoration: none;
+  border-bottom: 10px solid rgba(0, 0, 0, 0);
+}
+
+.site-navigation li:first-child:hover .submenu {
+  display: block;
+}
 .site-navigation li {
   margin-left: 15px;
   padding-top: 7px;
