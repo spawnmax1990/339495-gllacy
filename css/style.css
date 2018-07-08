@@ -685,6 +685,8 @@ input[placeholder]:focus {
   width: 1200px;
 
   margin: auto;
+  box-sizing: border-box;
+  padding: 0 27px;
 }
 
 .address {
