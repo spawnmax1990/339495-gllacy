@@ -44,11 +44,10 @@ li {
   border-bottom: 1px solid lightgrey;
   margin: 0;
   padding: 0;
+  padding-top: 7px;
   margin-bottom: 3px;
-  padding-bottom: 5px;
+  padding-bottom: 0;
 }
-
-
 
 .submenu {
   display: none;
