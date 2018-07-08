@@ -432,6 +432,10 @@ li {
   text-align: center;
 }
 
+.catalog-item:hover p + p {
+  text-decoration: none;
+}
+
 .catalog-item span {
   font-size: 30px;
   line-height: 45px;
@@ -441,6 +445,7 @@ li {
   border-radius: 50%;
 }
 
+
 .catalog-list .catalog-item {
   width: 270px;
   min-height: 300px;
@@ -448,6 +453,16 @@ li {
 
 .catalog-item {
   position: relative;
+}
+
+.catalog-item p + p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 61px;
+  height: 61px;
+  background: url('../img/hit.svg') no-repeat;
 }
 
 .catalog-item p:first-of-type {
