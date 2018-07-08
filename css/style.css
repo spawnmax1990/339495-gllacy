@@ -96,6 +96,8 @@ ul {
 
   padding-top: 5px;
   padding-bottom: 5px;
+
+  z-index: 20;
 }
 
 .submenu a {
@@ -498,7 +500,7 @@ ul {
 }
 
 .features {
-  width: 1160px;
+  width: 100%;
   min-height: 300px;
   background: white url("../img/waffle.jpg") repeat;
   border-radius: 15px;
