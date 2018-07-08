@@ -470,6 +470,7 @@ li {
   top: 160px;
 }
 
+
 .catalog-list {
   padding-left: 0px;
 }
@@ -595,6 +596,16 @@ li {
   padding-left: 10px;
   margin-left: 20px;
 }
+
+input[placeholder]:hover {
+  border: 1px solid grey;
+}
+
+input[placeholder]:focus {
+  border: 1px solid blue;
+  color: #323232;
+}
+
 .dispatch {
   font-weight: 400;
   width: 560px;
